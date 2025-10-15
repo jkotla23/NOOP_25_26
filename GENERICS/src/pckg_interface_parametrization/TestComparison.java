@@ -9,9 +9,11 @@ public class TestComparison {
         stringCompareTWO.performComparison();
         Integer iFst = 100;
         Integer iSnd = 100;
-        CompareTWO<string> integerCompareTWO = new CompareTWO<>(iFst, iSnd);
+        CompareTWO<String> integerCompareTWO = new CompareTWO<>(iFst, iSnd);
         integerCompareTWO.performComparison();
         StringLengthComparison fst = new StringLengthComparison(sFst);
         StringLengthComparison snd = new StringLengthComparison(sSnd);
+        CompareTWO<StringLengthComparison> stringLengthComparisonCompareTWO = new CompareTWO<>)fst,snd);
+        stringLengthComparisonCompareTWO.performComparison();
     }
 }
